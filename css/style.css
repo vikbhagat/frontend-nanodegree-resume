@@ -14,6 +14,19 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
+
+#map {
+  display: block;
+  height: 100%;
+  margin: 0 5%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
 .clear-fix {
   overflow: auto;
 }
@@ -149,6 +162,10 @@ ul {
   list-style-type: none;
 }
 
+.projectpic {
+   width: 400px;
+   height: 400px;
+}
 .biopic {
   float: left;
   padding: 10px;
@@ -194,17 +211,6 @@ span {
   }
 }
 
-#map {
-  display: block;
-  height: 100%;
-  margin: 0 5%;
-}
-
-#mapDiv {
-  height: 400px;
-  width: 100%;
-  padding-bottom: 5%;
-}
 
 @media only screen and (min-width: 750px) {
   #skills-h3,
